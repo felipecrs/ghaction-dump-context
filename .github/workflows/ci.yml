@@ -10,7 +10,7 @@ on:
       - master
       - releases/v*
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/5 * * * *" # test
 
 jobs:
   dump:
