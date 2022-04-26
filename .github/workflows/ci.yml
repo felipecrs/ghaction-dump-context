@@ -11,8 +11,6 @@ on:
       - releases/v*
     tags:
       - v*
-  schedule:
-    - cron: "* * * * *" # test
 
 jobs:
   dump:
